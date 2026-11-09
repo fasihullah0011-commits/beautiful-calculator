@@ -4,9 +4,9 @@
 
 ### Everyday math, with a little more delight.
 
-A lightweight calculator concept for quick, clear calculations—wrapped in a calm, responsive interface that feels at home on your phone or desktop.
+A lightweight, responsive calculator for quick, clear calculations—wrapped in a calm interface that feels at home on your phone or desktop.
 
-[**Explore the project**](https://github.com/fasihullah0011-commits/beautiful-calculator) · Made to be simple, useful, and easy to build on
+**[Try the calculator](https://fasihullah0011-commits.github.io/beautiful-calculator/)** · [View the source](https://github.com/fasihullah0011-commits/beautiful-calculator)
 
 </div>
 
@@ -14,49 +14,59 @@ A lightweight calculator concept for quick, clear calculations—wrapped in a ca
 
 ## 🌿 About
 
-Beautiful Calculator is a small web-app project focused on making everyday arithmetic feel effortless. The goal is to pair the essentials—clear input, familiar operations, and helpful controls—with thoughtful design and a distraction-free experience.
+Beautiful Calculator is a small web app focused on making everyday arithmetic feel effortless. It pairs the essentials with thoughtful design and a distraction-free experience. Built with plain HTML, CSS, and JavaScript—no frameworks, dependencies, or build step required.
 
-> **Current status:** This repository is at the project-introduction stage. The app interface and source files are not included yet; the features below describe the intended direction.
+## ✨ Features
 
-## 🎯 What it’s aiming for
+- Addition, subtraction, multiplication, and division
+- Parentheses and percentage calculations
+- Live result preview as you type
+- Clear and backspace controls
+- Full keyboard support: numbers, operators, parentheses, `%`, `Enter`, `Backspace`, and `Escape`
+- Responsive layout with accessible button labels and visible keyboard focus
+- Safe arithmetic parser—calculator input is never executed as code
+- No install or build tools needed
 
-- **The essentials:** Addition, subtraction, multiplication, and division
-- **Comfortable controls:** Clear and backspace actions for correcting input
-- **Keyboard support:** Enter calculations without relying only on clicks
-- **Responsive by design:** A useful layout on mobile, tablet, and desktop
-- **Accessible interactions:** Readable contrast, clear labels, and predictable focus
-- **No unnecessary weight:** A small app built with standard web technologies
+## 🚀 Run it locally
 
-## 🎨 Design principles
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/fasihullah0011-commits/beautiful-calculator.git
+   cd beautiful-calculator
+   ```
+2. Open `index.html` in your browser.
 
-1. **Keep the focus on the calculation.** The display and controls should be easy to scan.
-2. **Make actions obvious.** Number, operator, clear, and equals controls should feel familiar.
-3. **Work at every size.** The experience should adapt gracefully to touch screens and larger displays.
-4. **Be forgiving.** Editing input and recovering from invalid operations should be straightforward.
+You can also serve the folder with any static file server. The app runs entirely in the browser.
 
-## 🧰 Intended technology
+## ⌨️ Keyboard shortcuts
 
-The planned implementation is **HTML, CSS, and vanilla JavaScript**—a simple stack with no framework or build tooling required.
+| Key | Action |
+| --- | --- |
+| `0–9` and `.` | Enter numbers |
+| `+`, `-`, `*`, `/` | Arithmetic operators |
+| `(`, `)` and `%` | Parentheses and percentage |
+| `Enter` or `=` | Calculate |
+| `Backspace` | Delete the last character |
+| `Escape` or `Delete` | Clear the calculation |
 
-## 🚀 Getting started
+## 🧩 Project structure
 
-The calculator app files have not been added yet, so there is not a runnable local setup at this time. Once the app is implemented, this section will include the steps to launch it.
+```text
+beautiful-calculator/
+├── index.html    # App structure and controls
+├── styles.css    # Responsive visual design
+├── script.js     # Calculator logic and keyboard support
+├── favicon.svg   # App icon
+└── README.md
+```
 
-## 🗺️ Possible next steps
+## 🌱 Contributing
 
-- Create the calculator interface and responsive styling
-- Implement arithmetic and input editing
-- Add keyboard interactions and accessible labels
-- Test common calculations and edge cases
-- Document how to run and customize the app
-
-## 🤝 Contributing
-
-Have an idea for a feature, design improvement, or accessibility enhancement? Open an issue to share it. When implementation begins, contributions can help keep the app approachable, reliable, and lightweight.
+Ideas and improvements are welcome. Open an issue to suggest a feature, report a bug, or share an accessibility improvement.
 
 ## 📄 License
 
-A license has not been added yet. Until the repository includes one, the project is not offered under an open-source license.
+No license has been added yet. Until the repository includes one, the project is not offered under an open-source license.
 
 ---
 
